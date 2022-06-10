@@ -1,4 +1,8 @@
 # air-quality-measurement-with-Raspberry-Pi.
+Merhaba arkadaşlar
+
+air quality-measurement with Raspberry-Pi.4 başlıklı projemiz, Marmara Üniversitesi Elektrik ve Elektronik Mühendisliği lisansüstü Gömülü Sistemler ve Mobil Uygulamalar ders doğrultusunda Dr.Öğr.Üyesi SERKAN AYDIN gözetiminde gerçekleştirilmiştir. Projemizin amacı kapalı ortamlarda hava kalitesinin bileşenlerini (sıcaklık, nem, LPG, CO ve duman) ölçen sensörlerden toplanan veriler, Raspberry pi yardımıyla alınır ve Wİ-Fİ aracıyla  Thingspeak ortamına aktarılarak grafiksel olarak izlenmesini sağlamış olur. Projenin doğru bir şekilde çalışması için üstteki wiki kısmına tıklayarak donanım ve yazılım hakkında verilen bilgiler dikkate alınarak gerçekleştirilmelidir.
+
 ## Projeninin Amacı
 Bu projemizde Raspberry Pi 4 ile iç ortamlarda sıcaklık, nem, LPG, CO ve duman gibi hava kalitesi bileşenlerinin ölçme verileri, iot platform olan Thingspeak ortamına aktırılması ve Thingspeak ortamında ilgili bileşenlerin deşiğimi gerçek zamanlı olarak izlenmesini nasıl sağlanabilirliği adım adım anlatılacaktır. Amaçlan projenin mermisi şekil 1 de verilmiştir. Burada veriler, sensör platformundan Raspberry pi 4 kart vasistasıyla alınmakladır ve bir internet protokol yardımıyla wifi üzerine Thingspeak ortamına aktarılmaktadır.
 ![ama%C3%A7lanan%20sistem](https://github.com/rohullah12344/air-quality-measurement-with-Raspberry-Pi/blob/main/ama%C3%A7lanan%20sistem.png)
